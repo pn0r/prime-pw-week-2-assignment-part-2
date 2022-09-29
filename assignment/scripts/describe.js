@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Create a variable called name and set it equal to 'Dane'.
+// Check if name is strictly equal to 'Mary'.  It is not so,
+//  console.log 'How do you do?'.
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called secret.
+// Create a variable called code and set it equal to 123.
+// Then check to see if code is strictly equal to 123.  It is then
+// secret is changed equal to 'super' and code is changd equal to it self times 2.
+// Then conole.log value of secret.
 
 //CODE
 /*
@@ -70,13 +71,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable named isStudent assigned boolean value of true.
+// Create a second variable named age assigned the value 34.
+// Create a third variable named zip assigned the value 55407
+// Check to see if isStudent is strictly true and if zip is greater than 80000, it is not.
+// Check to see if isStudent is strictly false or if age is less than 30. niether are true.
+// Check to see if isStudent is strictly true it is so then console.log 'Welcome to Prime!'
 
 //CODE
 /*
+
 let isStudent = true;
 let age = 34;
 let zip = 55407;
@@ -130,10 +134,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue'
 let colorOne = 'red';
+//FIX - colorTwo should be set to 'red'
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX only colorOne is set to 'purple if mix equals true.  colorTwo also needs to be set to 
+// 'purple if mix equals true.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -145,6 +153,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX time needs to be a variable not a constant.
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -158,12 +167,15 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+//FIX minAge should be a variable.
 const minAge = 21;
-
+//FIX minAge should be >= greater than or equal to.
 if(minAge <= age) {
+//FIX should be console.log('enter')  
   console.log('no entry');
 } else {
+//FIX should be console.log('no entry')
   console.log('enter');
 }
-*/
 
+*/
